@@ -1,0 +1,34 @@
+{
+  "name": "update-to-latest",
+  "version": "1.0.0",
+  "description": "Simple CLI tool for easy update of npm dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "bin": {
+    "update-to-latest": "./bin/update-to-latest"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voronianski/update-to-latest.git"
+  },
+  "keywords": [
+    "cli",
+    "update",
+    "dependencies",
+    "npm",
+    "latest"
+  ],
+  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voronianski/update-to-latest/issues"
+  },
+  "homepage": "https://github.com/voronianski/update-to-latest#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "optimist": "^0.6.1"
+  }
+}
